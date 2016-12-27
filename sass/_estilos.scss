@@ -1,0 +1,206 @@
+.grupo{
+	margin-top: 1rem;
+}
+.priemra-seccion{
+	margin-top: 3rem;
+}
+.box-color {
+    background-color: $principal-color;
+    position: absolute;
+    float: left;
+    z-index: 3;
+    padding: 5px 30px;
+    color: $blanco;
+ }
+.divider{
+	background-color: $principal-color;
+	margin-top: 0.21rem;
+}
+.w{
+	@include marca;
+}
+.titulo{
+	font-size: 16px;
+	color: $texto-grises;
+	span{
+		@include marca;
+	}
+}
+.titulos{
+	font-size: 14px;
+	a{
+		color: $texto-grises;
+		margin-right: 0.5rem;
+		span{
+			@include marca;
+		}
+	}
+}
+.button-collapse{
+	i{
+		color: $principal-color;
+	}
+}
+.datos{
+	@include noticias;
+	color: $principal-color;
+}
+.datos-lugar{
+	@include texto-dos;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.datos-lacation{
+	@include noticias;
+	color: $texto-grises;
+	margin-top: 0.4rem;
+}
+.estrella{
+	@include estrella;
+	span{
+		color: $principal-color;	
+	}
+	.material-icons{
+		font-size: 10px;
+	}
+}
+.estrella-dos{
+	@include estrella;
+	margin-top: -1rem;
+	span{
+		color: $principal-color;	
+	}
+	.material-icons{
+		font-size: 10px;
+	}
+}
+.subtitulo{
+	margin-top: -0.4rem;
+}
+.separacion{
+	.divider{
+		background-color: $textos-grises-claros;
+		margin-top: -1rem;
+	}
+}
+.subtitulo-dos{
+	margin-top: -1.5rem;
+}
+.fa-facebook{
+	@include redes;
+	background-color: $fb;
+	&:hover{
+		background-color: lighten($fb, 10%);
+	}
+}
+.fa-twitter{
+	@include redes;
+	background-color: $tw;
+	&:hover{
+		background-color: lighten($tw, 10%);
+	}
+}
+.fa-rss{
+	@include redes;
+	background-color: $rss;
+	&:hover{
+		background-color: lighten($rss, 10%);
+	}
+}
+.parrafos-redes{
+	@include texto-dos;
+}
+.video{
+	margin-top: 2.4rem;
+	.video-container{
+		margin-top: 2.5rem;
+		margin-bottom: 2rem;
+	}
+}
+.spots{
+	margin-top: 2rem;
+}
+.titulo-estilo{
+	@include texto-dos;
+	@include line-height(25);
+}
+.titulo-sidebar{
+	margin-top: -2rem;
+	@include texto-dos;
+	@include line-height(25);
+}
+.parrafo-estilo{
+	@include texto-tres;
+	@include line-height(25);
+}
+.nuevas-noticias{
+	margin-top: 1rem;
+}
+.acordion{
+	a{
+		@include enlace-red;
+	}
+}
+.acordion-dos{
+	margin-top: -2rem;
+}
+.info-mas{
+	margin-top: -1rem;
+	a{	
+		color: $texto-grises;
+		i{
+			@include enlace-gris;
+		}	
+	}
+}
+.noticias-prev{
+	margin-top: -4rem;
+}
+.parrafo-click{
+	font-size: 12px;
+	span{
+		font-weight: 700;
+	}
+}
+.parrafo-gente{
+	@include subtitulo-uno;
+}
+.gente{
+	margin-top: -1rem;
+}
+.enlace-web{
+	img{
+		margin-top: 0.3rem;
+	}
+	a{
+		@include subtitulo-uno;
+	}
+}
+.tweet{
+	font-weight: 300;
+}
+.navigacion{
+	a{
+		@include enlace-grisdos;
+		font-size: 12px;
+		&:hover{
+			color: $principal-color;
+		}
+	}	
+}
+.navegacion-dos{
+	margin: 0.4rem 0;
+}
+.colores{
+	background-color: $principal-color;
+	width: 100%;
+	height: 0.5rem;
+}
+.parrafo-footer{
+	font-size: 10px;
+	text-align: center;
+	color: $blanco;
+	background-color: $principal-color;
+	margin-bottom: -1.5rem;
+	padding-top: 0.2rem;
+}

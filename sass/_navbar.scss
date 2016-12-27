@@ -1,0 +1,26 @@
+html {
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+	
+.primer-titulo{
+		color:$texto-grises;
+	span{
+		color: $principal-color;
+	}	
+}
+nav{
+	background-color: $blanco;
+	box-shadow: none;
+	ul{
+		a{
+			color: $texto-grises;
+			font-size: 0.9rem;
+
+			&:hover{
+				@include marca;
+				background-color: transparent;
+			}	
+		}
+	}
+}

@@ -1,0 +1,43 @@
+@mixin marca{
+	border-bottom: $principal-color 3px solid;
+}
+@mixin noticias{
+	font-size: 12px;
+}
+@mixin texto-dos{
+	font-size: 12px;
+	color: $texto-grises;
+}
+@mixin redes{
+	font-size: 25px;
+	color: white;
+	width: 100%;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	margin-top: 0;
+	cursor: pointer;	
+}
+@mixin estrella{
+	cursor: pointer;
+	color: $textos-grises-claros;
+}
+@mixin texto-tres{
+	font-size: 11px;
+	color: $textos-grises-claros;
+}
+@mixin enlace-red{
+	color: $principal-color;
+}
+@mixin enlace-gris{
+	color: $textos-grises-claros;
+}
+@mixin enlace-grisdos{
+	color: $texto-grises;
+}
+@mixin subtitulo-uno{
+	color: $texto-grises;
+	font-size: 10px;
+	text-align: center;
+	font-weight: 300;
+	margin-top: -0.2rem;	
+}
